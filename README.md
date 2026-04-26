@@ -1,7 +1,7 @@
-# NASDAQ KPI Assignment — Dataset Quality Report
+# KPI Assignment — Dataset Quality Report
 
 > **Course Assignment** | Data Quality KPIs for AI Training Datasets  
-> **Submitted:** April 2026 | **Exchange:** NASDAQ | **Source:** Yahoo Finance API
+> **Submitted:** April 2026 | **Source:** Yahoo Finance API
 
 ---
 
@@ -99,19 +99,19 @@ Start at 100. Deduct for:
 
 ---
 
-## 📋 KPI Summary (Reference Values)
+## KPI Summary (Reference Values)
 
 | Ticker | Completeness | Latency       | Accuracy | Consistency |
 |--------|-------------|---------------|----------|-------------|
-| AAPL   | ~99%        | 1 biz day ✅  | 100%     | ~97/100     |
-| MSFT   | ~99%        | 1 biz day ✅  | 100%     | ~98/100     |
-| NVDA   | ~98%        | 1 biz day ✅  | 100%     | ~95/100     |
-| AMZN   | ~98%        | 1 biz day ✅  | 100%     | ~97/100     |
-| META   | ~97%        | 1 biz day ✅  | 100%     | ~97/100     |
+| AAPL   | ~99%        | 1 biz day  | 100%     | ~97/100     |
+| MSFT   | ~99%        | 1 biz day  | 100%     | ~98/100     |
+| NVDA   | ~98%        | 1 biz day  | 100%     | ~95/100     |
+| AMZN   | ~98%        | 1 biz day  | 100%     | ~97/100     |
+| META   | ~97%        | 1 biz day  | 100%     | ~97/100     |
 
 ---
 
-## 🔍 Data Source Details
+## Data Source Details
 
 | Field             | Value                                              |
 |-------------------|----------------------------------------------------|
@@ -137,6 +137,7 @@ The Yahoo Finance API provides **high-quality, low-latency financial data** suit
 The dataset is suitable for academic and research use in financial machine learning, time series forecasting, and AI training pipeline design.
 
 ---
+<img width="970" height="572" alt="Screenshot 2026-04-26 at 15 35 42" src="https://github.com/user-attachments/assets/f466128c-d3d0-4d0e-a90e-814a4a377274" />
 
-*Data Card: see [`datacard.html`](./datacard.html)*  
+*Data Card: see [`datacard.html`](./index.html)*  
 *License: Educational use only*
