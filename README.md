@@ -124,6 +124,26 @@ Start at 100. Deduct for:
 | Access            | Free, unauthenticated HTTP                         |
 
 ---
+## Vizualizations
+
+<img width="970" height="572" alt="Screenshot 2026-04-26 at 15 35 42" src="https://github.com/user-attachments/assets/f466128c-d3d0-4d0e-a90e-814a4a377274" />
+
+## Missing values 
+<img width="970" height="597" alt="Screenshot 2026-04-26 at 15 38 06" src="https://github.com/user-attachments/assets/44e536b8-69fb-4d31-a697-3dc36c8de04e" />
+
+## Closing prices 
+<img width="722" height="204" alt="Screenshot 2026-04-26 at 15 39 54" src="https://github.com/user-attachments/assets/cd131ea6-6a45-4a85-b466-68547177fde7" />
+
+
+<img width="722" height="187" alt="Screenshot 2026-04-26 at 15 40 21" src="https://github.com/user-attachments/assets/2f65a2f9-9405-4284-b529-a9a3d890bae0" />
+
+<img width="369" height="181" alt="Screenshot 2026-04-26 at 15 40 43" src="https://github.com/user-attachments/assets/cceaf517-54e1-4dca-b251-1d4765a5edd7" />
+
+## KPIs visualized
+<img width="966" height="267" alt="Screenshot 2026-04-26 at 15 41 23" src="https://github.com/user-attachments/assets/3f7cea59-46b5-4549-8bdc-c6a2e61294b8" />
+
+
+
 
 ## Conclusion
 
@@ -137,7 +157,6 @@ The Yahoo Finance API provides **high-quality, low-latency financial data** suit
 The dataset is suitable for academic and research use in financial machine learning, time series forecasting, and AI training pipeline design.
 
 ---
-<img width="970" height="572" alt="Screenshot 2026-04-26 at 15 35 42" src="https://github.com/user-attachments/assets/f466128c-d3d0-4d0e-a90e-814a4a377274" />
 
 *Data Card: see [`datacard.html`](./index.html)*  
 *License: Educational use only*
