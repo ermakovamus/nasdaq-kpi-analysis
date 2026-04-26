@@ -1,11 +1,11 @@
-# 📊 NASDAQ KPI Assignment — Dataset Quality Report
+# NASDAQ KPI Assignment — Dataset Quality Report
 
 > **Course Assignment** | Data Quality KPIs for AI Training Datasets  
-> **Submitted:** April 2025 | **Exchange:** NASDAQ | **Source:** Yahoo Finance API
+> **Submitted:** April 2026 | **Exchange:** NASDAQ | **Source:** Yahoo Finance API
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 nasdaq-kpi-assignment/
@@ -32,7 +32,7 @@ nasdaq-kpi-assignment/
 
 ---
 
-## 🏢 Company Selection (5 NASDAQ Tickers — Different Periods)
+## Company Selection (5 NASDAQ Tickers — Different Periods)
 
 | Ticker | Company                  | Sector                  | Period                    | Duration   |
 |--------|--------------------------|-------------------------|---------------------------|------------|
@@ -42,11 +42,11 @@ nasdaq-kpi-assignment/
 | AMZN   | Amazon.com Inc.          | Consumer Discretionary  | Jan 1 2025 → Apr 26 2025  | ~4 months  |
 | META   | Meta Platforms Inc.      | Communication Services  | Feb 1 2025 → Apr 26 2025  | ~3 months  |
 
-> ⚠️ Each company uses a **deliberately different time period** to introduce variability in dataset size, enabling richer KPI comparison.
+> Each company uses a **deliberately different time period** to introduce variability in dataset size, enabling richer KPI comparison.
 
 ---
 
-## 📐 KPI Definitions
+## KPI Definitions
 
 ### (a) Completeness
 > *What fraction of expected data is actually present?*
@@ -99,28 +99,6 @@ Start at 100. Deduct for:
 
 ---
 
-## 🚀 How to Run
-
-### 1. Install dependencies
-```bash
-pip install yfinance pandas matplotlib seaborn scipy
-```
-
-### 2. Run the script
-```bash
-python kpi_assignment.py
-```
-
-### 3. View outputs
-```bash
-ls kpi_output/
-```
-
-### 4. View the Data Card
-Open `datacard.html` in any browser.
-
----
-
 ## 📋 KPI Summary (Reference Values)
 
 | Ticker | Completeness | Latency       | Accuracy | Consistency |
@@ -147,19 +125,7 @@ Open `datacard.html` in any browser.
 
 ---
 
-## 📊 Visualisations
-
-After running the script, the following charts are generated in `kpi_output/`:
-
-1. **01_close_prices.png** — Line charts of Close price for all 5 tickers
-2. **02_volume.png** — Bar charts of daily trading volume
-3. **03_kpi_dashboard.png** — Horizontal bar chart comparing all 4 KPIs across tickers
-4. **04_ohlc_AAPL.png** — Candlestick chart (last 60 trading days)
-5. **05_correlation.png** — Heatmap of Close price correlations between tickers
-
----
-
-## ✅ Conclusion
+## Conclusion
 
 The Yahoo Finance API provides **high-quality, low-latency financial data** suitable for AI/ML training datasets. Across all four KPIs:
 
